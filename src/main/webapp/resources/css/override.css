@@ -1,0 +1,133 @@
+/* 
+    Document   : override
+    Created on : 9 Mar, 2012, 4:53:05 PM
+    Author     : Mayank
+    Description:
+        Purpose of the stylesheet follows.
+        Overriedes the styles of jQuery plugins
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+/*Overriding the styles of datatable jQuery plugin*/
+/*adjusting the info at the bottom of data-table*/
+.dataTables_info {
+    color: #686868;
+    margin-top: -7px;
+
+}
+
+/*removing the footer bar of data-table*/
+div.fg-toolbar.ui-toolbar.ui-widget-header.ui-corner-bl.ui-corner-br.ui-helper-clearfix{
+    height: 0px;
+}
+
+/*removing the column sorting for data-table*/
+span.DataTables_sort_icon.css_right.ui-icon.ui-icon-carat-2-n-s{
+    display: none;
+}
+
+/*removing the column sorting for data-table*/
+span.DataTables_sort_icon.css_right.ui-icon.ui-icon-triangle-1-n{
+    display: none;
+}
+
+/*change the colors of headers for tables and calender*/
+.div.dataTables_wrapper{
+
+    font-weight: bold;
+    font-size: 13px;
+}
+.ui-widget-header{
+    background-image:url("../images/yellow-strip.jpg");
+    /* background: #FFCD00; */
+    color: #686868;
+}
+
+div.dataTables_wrapper .ui-widget-header {
+    font-weight: bold;
+    font-size: .7em;
+}
+
+data-table_length select{
+    font-size: 1em;
+}
+/* .ui-icon-circle-arrow-w{
+        width: 15px;
+        height: 25px;
+        display: block;
+        padding-right: 39px;
+    background-image:url(../images/next-normal.png);
+    background-repeat: no-repeat;
+}
+
+.ui-icon-circle-arrow-w:hover{
+        width: 15px;
+        height: 25px;
+        display: block;
+        padding-right: 39px;
+    background-image:url(../images/next-rollover.png);
+    background-repeat: no-repeat;
+}  */
+
+tr.even{
+    background: #eeeced;
+}
+tr.odd{
+    background: #e5e3e4;
+}
+
+table.datatable tr.odd{
+    background: #FFFFFF;
+}
+
+.ui-icon{
+    display:none;
+} 
+#data-table_previous{
+    width: 15px;
+    height: 25px;
+    display: block;
+    padding-right: 39px;
+    background-image:url(../images/previous-normal.png);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#data-table_previous:hover{
+    width: 15px;
+    height: 25px;
+    display: block;
+    padding-right: 39px;
+    background-image:url(../images/previous-rollover.png);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#data-table_next{
+    width: 15px;
+    height: 25px;
+    display: block;
+    padding-right: 39px;
+    background-image:url(../images/next-normal.png);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#data-table_next:hover{
+    width: 15px;
+    height: 25px;
+    display: block;
+    padding-right: 39px;
+    background-image:url(../images/next-rollover.png);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+}

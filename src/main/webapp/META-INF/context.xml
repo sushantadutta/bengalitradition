@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="" crossContext="true" reloadable="true">
+<!-- 	<Resource url="jdbc:oracle:thin:@server-pc:1521:loyalty" -->
+<!-- 		driverClassName="oracle.jdbc.OracleDriver" logAbandoned="true" -->
+<!-- 		removeAbandonedTimeout="30" removeAbandoned="true" password="cc_loyal_admin" -->
+<!-- 		username="cc_loyal_admin" maxWait="10000" maxIdle="5" maxActive="20" -->
+<!-- 		type="javax.sql.DataSource" auth="Container" name="jdbc/CC_LOYAL_DS" /> -->
+
+<!-- 	<Resource url="jdbc:oracle:thin:@server-pc:1521:loyalty" -->
+<!-- 		driverClassName="oracle.jdbc.OracleDriver" logAbandoned="true" -->
+<!-- 		removeAbandonedTimeout="30" removeAbandoned="true" password="APP_OWNER" -->
+<!-- 		username="APP_OWNER" maxWait="10000" maxIdle="5" maxActive="20" -->
+<!-- 		type="javax.sql.DataSource" auth="Container" name="jdbc/CC_SINGLE_VIEW_DS" /> -->
+</Context>
+

@@ -1,0 +1,381 @@
+/*Styles for the fieldset. Here used for grid*/
+fieldset{
+    border: none;
+}
+
+/*Styles for caption, th, td*/ 
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+}
+
+/*Styles for the grid used in the application
+Defining the borders of the grid*/
+.grid-table {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+    border-spacing: 0;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+}
+
+/*Styles used for grid with a tree*/
+#grid-tree-form{
+	position: relative;
+	margin-top: 6px;
+    float: right;
+    width: 510px;
+}
+
+/*Styles for the table data (td) of the row header of the grid
+Defining the borders and font color*/
+.grid-table .row-header td{
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: bold;
+    background: #8e8c8d;
+}
+
+/*Styles for the table header (th) of row header of a table*/
+.grid-table .row-header th{
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: bold;
+    background: #8e8c8d;
+}
+
+/*Styles for the table header (th) of the grid*/
+.grid-table th {
+    padding: 6px 0;
+    text-align: left;
+    border-bottom: 1px solid #FFFFFF;
+    font-size: .7em;
+    color: #333;
+}
+.grid-table .number-align {
+    text-align: right;
+}
+
+/*Styles for the table data (td) of the grid*/
+.grid-table td {
+    padding: 10px 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: left;
+    border-bottom: 1px solid #FFFFFF;
+    font-size: .7em;
+    font-weight: bold;
+    border-left: 1px solid #FFFFFF;
+    color: #686868;
+    vertical-align: middle;
+}
+
+#data-table td{
+    padding: 10px 0;
+}
+/*Styles for the odd rows of the grid*/
+.odd {
+    background: #FFFFFF;
+}
+
+/*Styles for the even rows of the grid*/
+.even {
+    background: #FFFFFF;
+}
+
+/*Styles for the preview grid present of on right-side-bar-sub-menu of the application*/
+.preview-grid{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.preview-grid label{
+    cursor: pointer;
+}
+/*
+.preview-grid .grid-table td{
+    text-align: center;
+}*/
+
+/*Styles for the fieldset of the preview grid present of on right-side-bar-sub-menu of the application*/
+.preview-grid fieldset{
+    margin: 3px 0 0 0;
+    padding: 3px 0 0px 0;
+    color: #8E8C8D;
+    position: relative;
+    background: #d4d2d3;
+    -webkit-transition:background .5s ease-in;
+    -webkit-transition:background .5s ease-out;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-topright: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+/*Styling background color for row-header of preview grid present of on right-side-bar-sub-menu of the application*/
+.preview-grid .row-header{
+    background: #edeff4;
+}
+
+.preview-grid .row-header td{
+    font-weight: bold;
+}
+
+/*Setting the cursor type as pointer for grid-table of preview grid present of on right-side-bar-sub-menu of the application*/
+.preview-grid .grid-table{
+    cursor: pointer;
+}
+
+/*Setting on-hover on field set of preview grid present of on right-side-bar-sub-menu of the application*/
+/*.preview-grid fieldset:hover{
+    background: #EDEFF4;
+    color: #3B5998;
+}*/
+
+/*Styling the font details of the label of preview grid present of on right-side-bar-sub-menu of the application*/
+.preview-grid label{
+    font-size: .75em;
+    font-weight: bold;
+}
+
+/*defining form header of the application (only on screen where form header is present)*/
+.form-header{
+    float: left;
+    width: 480px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 30px;
+    border-right-style: dotted;
+    border-right-width: 1px; 
+    border-right-color: #bbb;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px; 
+    border-bottom-color: #bbb;
+}
+
+.grid-table-product-list .grid-table th{
+    text-align: left;
+    padding-top: 6px;
+    padding-left: 6px;
+}
+
+.grid-table-product-list .grid-table td{
+    text-align: left;
+    
+    
+}
+
+/*class defined for tool-box*/
+/*Not included in v2 of design
+.tool-box{
+    float: left;
+    background: #D8EFB3;
+    border-right: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    border-top: 1px solid #bfbfbf;
+    border-left: 1px solid #bfbfbf;
+    padding: 5px 10px 6px 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: .8em;
+    width: 750px;
+    
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    -webkit-box-shadow: rgba(0,0,0,.15) 0px 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,.15) 0px 1px 3px;
+    -o-box-shadow: rgba(0,0,0,.15) 0px 1px 3px;
+}
+*/
+
+/*defining the styles of a tool-box*/
+/*Not included in v2 of design
+.tool-box a{
+    float: left;
+    margin: 0 .7em 0 0;
+    text-decoration: none;
+    background: #EAEAEA;
+    border: 1px solid #dedede;
+    border-right: 1px solid #bbb;
+    border-bottom: 1px solid #bfbfbf;
+    padding: 5px 10px 6px 10px;
+    display: block;
+    font-size: .8em;
+    cursor: pointer;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    -webkit-box-shadow: rgba(0,0,0,.15) 0px 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,.15) 0px 1px 3px;
+    -o-box-shadow: rgba(0,0,0,.15) 0px 1px 3px;
+    box-shadow: rgba(0,0,0,.15) 0px 1px 3px;
+    -webkit-transition:background .5s ease-in; 
+}
+*/
+
+/*Styles for hover on tool-box button*/
+/*Not included in v2 of design
+.tool-box a:hover{
+    background: #FFFFFF;
+}
+*/
+
+/*defining styles for the label of form-header (the rectangular boc at the top)*/
+/*Not included in v2 of design
+.form-header label{
+    font-size: .7em;
+    font-weight: bold;
+    background: #bbb;
+    padding-left: 5px;
+    padding-right: 10px;
+}*/
+
+/*defining the 'th' present inside form-header*/
+/*Not included in v2 of design
+.form-header th{
+    background: #dcdcdc;
+    width: 70px;
+}*/
+
+/*defining the 'td' present inside form-header*/
+/*Not included in v2 of design
+.form-header td{
+    width: 152px;
+    text-align: left;
+    padding-left: 10px;
+}*/
+
+/*defining the 'th' present inside content-form*/
+/*Not included in v2 of design
+.content-form th{
+    background: #dcdcdc;
+    width: 70px;
+    border-left:  1px solid #d2d2d2;
+}*/
+
+/*defining the 'td' present inside content-form*/
+/*Not included in v2 of design
+.content-form td{
+    width: 100%;
+    text-align: left;
+    padding-left: 5px;
+}
+*/
+
+/*Not included in v2 of design
+.center-small-grid{
+    padding-left : 10px;
+    width: 480px;
+    float: left;
+    padding-right : 30px;
+    border-right-style: dotted;
+    border-right-width: 1px; 
+    border-right-color: #bbb;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px; 
+    border-bottom-color: #bbb;
+}
+
+.center-small-grid label{
+    font-size: .7em;
+    font-weight: bold;
+    background: #bbb;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.center-small-grid .tool-box{
+    width: 430px;
+    float: right;
+    margin-right: 15px;
+}
+
+.center-small-grid form{
+    padding-top: 5px;
+}
+
+.center-small-grid .pagination{
+    width: 430px;
+}
+
+.form-header .tool-box{
+    width: 430px;
+    float: right;
+    margin-right: 15px;
+}
+*/
+
+/*Styles for the pagination used in grid
+Defining the padding done around the pagination block*/
+/*Not included in v2 of design
+.pagination {
+    float: left;
+    margin: 0 .7em 0 0;
+    text-decoration: none;
+    background: #f6fce2;
+    border: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    border-top: 1px solid #bfbfbf;
+    border-left: 1px solid #bfbfbf;
+    padding: 5px 10px 6px 10px;
+    margin-left: 15px;
+    display: block;
+    cursor: pointer;
+    font-size: .8em;
+    color: #000000;
+    width: 750px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    -webkit-box-shadow: rgba(0,0,0,.15) 0px 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,.15) 0px 1px 3px;
+    -o-box-shadow: rgba(0,0,0,.15) 0px 1px 3px;
+}
+*/
+
+/*Styles for the 'a' tag used in 'previous' id in pagination*/
+/*Not included in v2 of design
+.previous a:link{
+    color: #000000;
+    float: right;
+}
+*/
+
+/*floating the pagelist of pagination to the left*/
+/*Not included in v2 of design
+.pagelist{
+    float:right;
+}
+*/
+
+/*Styles for the 'a' tag used in 'pagelist' id in pagination*/
+/*Not included in v2 of design
+.pagelist a:link{
+    background-color: #ffffff;
+    padding: 2px 6px;
+    color: #000000;
+    margin: 0px 3px 0px;
+}
+*/
+
+/*Styles for the 'a' tag used in 'next' id in pagination*/
+/*Not included in v2 of design
+.next a:link{
+    color:#000000;
+    float: right;
+}
+*/

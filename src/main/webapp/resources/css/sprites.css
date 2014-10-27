@@ -1,0 +1,572 @@
+root { 
+    display: block;
+}
+
+.header-top-content{
+    height: 17px;
+    width: 205px;
+    padding: 7px;
+    padding-right: 11px;
+    margin-top: -7%;
+    text-align:center;
+    background-color: white; 
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
+    -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 7px; 
+    border-radius: 4px;
+    background: -webkit-gradient(linear, left top, left bottom, 
+        color-stop(0%, white), color-stop(15%, white), color-stop(100%, #dcdbdb)); 
+    background: -moz-linear-gradient(top, white 0%, white 55%, #dcdbdb 130%); 
+}
+
+/*ticker image - checked - greyed*/
+.ticker-checked-greyed{
+    width: 18px;
+    height: 15px;
+    display:block;
+    background-image:url(../images/stylesheet-no-repeat.png);
+    background-position: 0 -1466px;
+}
+
+/*ticker image - checked*/
+.ticker-checked-white{
+    width: 18px;
+    height: 15px;
+    display:block;
+    background-image:url(../images/stylesheet-no-repeat.png);
+    background-position: 0 -1422px;
+}
+
+/*transition on hover*/
+.ticker-checked-white:hover{
+    background-position: 0 -1452px;
+}
+/*
+.label-header{
+        float: right;
+        width: 752px;
+        height: 30px;
+        font-size:180%;
+        color:#5E5E5E;
+        font-weight:normal;
+        background-color:#CCC;
+        background-image: -webkit-linear-gradient(top,#EEE, #CCC);
+        background-image: -moz-linear-gradient(top, #EEE,#CCC);
+        background-image: -ms-linear-gradient(top,	#EEE,#CCC);
+        background-image: -o-linear-gradient(top, #EEE, #CCC);
+        padding: 20px;
+        -webkit-border-top-right-radius: 15px;
+        -webkit-border-top-left-radius: 15px;
+        -webkit-border-bottom-left-radius: 15px;
+        -webkit-border-bottom-right-radius: 15px;
+        -webkit-box-shadow: rgba(0, 0, 0, .15) 0px 1px 10px;
+}*/
+/*Styles for a button*/
+.button {
+    cursor: pointer;
+    /*     width: auto; */
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    padding: 4px 7px 4px 10px;
+    margin-top: 4px;
+    background: #FFF;
+    color: #333;
+    font-size: .75em;
+    /*     border-radius: 5px; */
+    -webkit-box-shadow: rgba(0, 0, 0, .15) 0px 1px 10px;
+    -moz-box-shadow: rgba(0, 0, 0, .15) 0px 1px 10px;
+    -o-box-shadow: rgba(0, 0, 0, .15) 0px 1px 10px;
+}
+
+.button:active{
+    -moz-box-shadow: inset rgba(0, 0, 0, .15) -1px -1px;
+    -webkit-box-shadow: inset rgba(0, 0, 0, .15) -1px -1px;
+    box-shadow: inset rgba(0, 0, 0, .15) -1px -1px;
+}
+
+.button-float-right{
+    /*    margin-left:300px;*/
+    float: right;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+}
+
+.button-details-find {
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+    font-weight: bold;
+    padding: 4px 7px 4px 10px;
+    margin-top: -26px;
+    border-radius: 4px;
+    background: #FFF;
+    color: #333;
+    margin-left: 10px;
+    font-size: .75em;
+    -webkit-box-shadow: rgba(0, 0, 0, .15) 0px 1px 10px;
+    -moz-box-shadow: rgba(0, 0, 0, .15) 0px 1px 10px;
+    -o-box-shadow: rgba(0, 0, 0, .15) 0px 1px 10px;
+}
+/*buttons used for Submit Reset and Cancel*/
+.button-validate {
+    background-image: url("../images/icons.png");
+    background-position: -643px -74px;
+    width: 6.4em;
+}
+.button-find {
+    background-image: url("../images/icons.png");
+    background-position: -638px -189px;
+    width: 6.4em;
+}
+.button-cancel {
+    background-image: url("../images/icons.png");
+    /* background-position-x: -870px;
+    background-position-y: -74px; */
+    background-position: -870px -74px;
+    width: 6.4em;
+}
+.button-reset {
+    background-image: url("../images/icons.png");
+    /* background-position-x: -755px;
+    background-position-y: -74px; */
+    background-position: -755px -74px;
+    width: 6em;
+}
+.button-submit {
+    background-image: url("../images/icons.png");
+    /* background-position-x: -643px;
+    background-position-y: -74px; */
+    background-position: -643px -74px;
+    width: 6em;
+}
+
+.button-reset-date{
+    background-image: url("../images/icons.png");
+    /* background-position-x: -643px;
+    background-position-y: -74px; */
+    background-position: -869px -74px;
+    width: 2em;
+    margin-left: 17px;
+    border-radius: 4px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #D8D8D8;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #D8D8D8;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #D8D8D8;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #D8D8D8;
+}
+
+.button-color {
+    background-color: white;
+}
+.button-color:hover {
+    background-color: #FCC407;
+}
+
+.button-color a:hover{
+    color: #000000;
+}
+/*add icon used in the tool bar*/
+.add-icon{
+    margin-top: 1px;
+    margin-left: -5px;
+    float : right;
+    width: 30px;
+    height: 16px;
+    display: block;
+    background-image:url(../images/icons.png);
+    /* background-position-x: -76px;
+background-position-y: -74px; */
+    background-position: -76px -74px;
+    border-radius: 4px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #D8D8D8;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #D8D8D8;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #D8D8D8;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #D8D8D8;
+}
+
+/*edit icon used in the tool bar*/
+.edit-icon{
+    margin-top: 1px;
+    margin-left: -5px;
+    float : right;
+    width: 30px;
+    height: 16px;
+    display: block;
+    background-image:url(../images/icons.png);
+    /* background-position-x: -191px;
+    background-position-y: -74px; */
+    background-position: -191px -74px;
+    border-radius: 4px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #D8D8D8;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #D8D8D8;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #D8D8D8;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #D8D8D8;
+}
+
+/*delete icon used in the tool bar*/
+.delete-icon{
+    margin-top: 1px;
+    margin-left: -5px;
+    float : right;
+    width: 45px;
+    height: 16px;
+    display: block;
+    background-image:url(../images/icons.png);
+    /* background-position-x: -302px;
+        background-position-y: -74px; */
+    background-position: -302px -74px;
+    border-radius: 4px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #D8D8D8;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #D8D8D8;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #D8D8D8;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #D8D8D8;
+}
+
+/*delete icon used in the tool bar*/
+.view-icon{
+    margin-top: 1px;
+    margin-left: -5px;
+    float : right;
+    width: 36px;
+    height: 16px;
+    display: block;
+    background-image:url(../images/icons.png);
+    /* background-position-x: -418px;
+        background-position-y: -74px; */
+    background-position: -418px -74px;
+    border-radius: 4px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #D8D8D8;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #D8D8D8;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #D8D8D8;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #D8D8D8;
+}
+
+
+#button-logout{
+    width: 15px;
+    height: 16px;
+    display: block;
+    font-size: 13px;
+    /* background-image:url(../images/icons.png);
+    background-position: -872px -475px; */
+    float: left; 
+    margin-top: 0px;
+    margin-left: 36px;
+}
+
+.button-next{
+    width: 15px;
+    height: 25px;
+    display: block;
+    padding-right: 39px;
+    background-image:url(../images/next-normal.png);
+    background-repeat: no-repeat;
+}
+.button-next:hover{
+    width: 15px;
+    height: 25px;
+    display: block;
+    padding-right: 39px;
+    background-image:url(../images/next-rollover.png);
+    background-repeat: no-repeat;
+}
+
+.button-previous{
+    width: 15px;
+    height: 25px;
+    display: block;
+    padding-right: 39px;
+    background-image:url(../images/previous-normal.png);
+    background-repeat: no-repeat;
+}
+.button-previous:hover{
+    width: 15px;
+    height: 25px;
+    display: block;
+    padding-right: 39px;
+    background-image:url(../images/previous-rollover.png);
+    background-repeat: no-repeat;
+}
+/*Logo-image used in login*/
+#login-image {
+    margin-top: 100px;
+    width : 550px;
+    height : 240px;
+    background-image: url(../images/cc-loyal-logo-login.png);
+    position : relative;
+}
+
+/*Header image of the application*/
+/*Header image of the application*/
+/* #header-v2{
+    background-color: #215968;
+    height: 40px;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url(../../images/loyalty_header_final13.png);
+} */
+#header-v2{
+    background-image: url(../images/header-strip.png);
+    height: 80px;
+    margin: 0 auto;
+    width: 100%;
+    /*background-image: url(../../images/loyalty_header_final13.png);*/
+    margin-bottom: 25px;
+}
+#header-content{
+    width: 1000px; 
+    margin: 0 auto; 
+    height: 34px;
+}
+
+#small-logo {
+    background-image: url(../images/cc_loyal_header_logo.png);
+    height: 78px;
+    z-index: 1;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: white;
+    font-size: 22px;
+    padding-left: 5px;
+    padding-top: 7px;
+    font-family: georgia;
+    margin-left: 39px;
+}
+
+#small-logo-target {
+    background-image: url(../images/target_logo_small.png);
+    height: 78px;
+    z-index: 1;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: white;
+    font-size: 22px;
+    padding-left: 5px;
+    padding-top: 7px;
+    font-family: georgia;
+}
+
+.information-icon{
+    background-image: url(../images/information_icon.png);
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+
+.close-icon{
+    width: 15px;
+    height: 16px;
+    display: block;
+    background-image:url(../images/stylesheet-icons-v3.png);
+    background-position: 0px -1811px;
+    float: right; 
+    margin-top: -3px; 
+    margin-left: -5px
+}
+
+.associate-icon{
+    margin-top: 1px;
+    margin-left: -5px;
+    float : right;
+    width: 74px;
+    height: 16px;
+    display: block;
+    background-image:url(../images/icons.png);
+    /* background-position-x: -418px;
+        background-position-y: -74px; */
+    background-position: -865px -413px;
+    border-radius: 4px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #D8D8D8;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #D8D8D8;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #D8D8D8;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #D8D8D8;
+}
+
+.execute-icon{
+    float : right;
+    width: 27px;
+    height: 27px;
+    display: block;
+    background-image: url(../images/stylesheet-icons-v3.png);
+    background-position: -6px -705px;
+}
+
+.calculator-icon{
+    float: right;
+    width: 14px;
+    height: 14px;
+    display: block;
+    background-image: url(../images/stylesheet-no-repeat-v5.png);
+    background-position: -103px -161px;
+}
+
+.plus-icon{
+    float: right;
+    width: 27px;
+    height: 30px;
+    display: block;
+    background-image: url(../images/plus_minus.png);
+    background-position: -140px -180px;
+}
+
+minus-icon{
+    float: right;
+    width: 27px;
+    height: 31px;
+    display: block;
+    background-image: url(../images/plus_minus.png);
+    background-position: -140px -239px;
+}
+
+.expand-icon{
+    float: right;
+    width: 15px;
+    height: 15px;
+    display: block;
+    background-image: url(../images/expand_collapse.png);
+    background-position: -136px -249px;
+    cursor: pointer;
+}
+
+.collapse-icon{
+    float: right;
+    width: 15px;
+    height: 15px;
+    display: block;
+    background-image: url(../images/expand_collapse.png);
+    background-position: -136px -276px;
+    cursor: pointer;
+}
+
+.tick-icon{
+    margin-top: 1px;
+    margin-left: -5px;
+    float: left;
+    width: 36px;
+    height: 16px;
+    display: block;
+    background-image: url(../images/icons.png);
+    background-position: -638px -76px;
+}
+.cross-icon{
+    margin-top: 1px;
+    margin-left: -5px;
+    float : left;
+    width: 45px;
+    height: 16px;
+    display: block;
+    background-image:url(../images/icons.png);
+    background-position: -302px -77px;
+}
+
+/*program center menu icon*/
+#lmenu1 .tab-v2 a{
+    background-image: url(../images/program-centre1_15-x15.png);
+    background-repeat: no-repeat;
+}
+
+/*member center menu icon*/
+#lmenu2 .tab-v2 a{
+    background-image: url(../images/member-centre1_15-x15.png);
+    background-repeat: no-repeat;
+}
+
+/*application setup menu icon*/
+#lmenu3 .tab-v2 a{
+    background-image: url(../images/app-setup-15x15-b.png);
+    background-repeat: no-repeat;
+}
+
+/*import menu icon*/
+#lmenu4 .tab-v2 a{
+    background-image: url(../images/importer-15x15-b.png);
+    background-repeat: no-repeat;
+}
+
+/*iCloud image using sprites*/
+/*Not icluded in v2 of design*/
+/*
+#logo-image{
+    width: 143px;
+    height: 120px;
+    display:block;
+    background-image:url(../images/stylesheet-no-repeat.png);
+    background-position: 0 -766px;
+}*/
+
+/*Right arrow image using sprites*/
+/*Not icluded in v2 of design*/
+/*
+.right-arrow{
+    width: 8px;
+    height: 19px;
+    display: block;
+    background-image:url(../images/stylesheet-no-repeat_icons.png);
+    background-position: -92px -2051px;
+}
+*/
+
+/*Small Right arrow image using sprites*/
+/*Not icluded in v2 of design*/
+/*
+.right-arrow-small{
+    width: 7px;
+    height: 16px;
+    display: block;
+    background-image:url(../images/stylesheet-no-repeat_icons.png);
+    background-position: -238px -2139px;
+}
+*/

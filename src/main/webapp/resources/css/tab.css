@@ -1,0 +1,282 @@
+root { 
+    display: block;
+}
+
+/*Styles for li of the tab for Version-2 of design (left-side-bar)*/
+.tab-v2 li{
+    padding-bottom: 10px;
+}
+
+/*Styles for a of the tab for Version-2 of design (left-side-bar)*/
+/* .tab-v2 a{
+    text-decoration: none;
+    width: 170px;
+    float: left;
+    font-weight: bold;
+    padding: 4px 7px 4px 10px;
+    margin-top: 4px;
+    background: #edeff4;
+    color: #3B5998;
+    font-size: 0.9em;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+} */
+.tab-v2 a{
+    text-decoration: none;
+    width: 155px;
+    float: left;
+    font-weight: bold;
+    padding: 4px 7px 4px 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background: #d4d2d3;
+    color: #000000; 
+    font-size: 0.9em;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+    margin-left: 9px;
+    background-image:url(../images/background-pattern.gif);
+    background-repeat: repeat;
+} 
+
+/*Styles for hover of the tab for Version-2 of design (left-side-bar)*/
+/*.tab-v2-inside a{
+    background: #FFCD00;
+    color: #000000;
+}*/
+
+/*Styles for the sub-tab (left-side-bar)*/
+.sub-tab, .sub-tab-inside{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sub-tab a{
+    text-decoration: none;
+    color: #6f6f6f;
+    font-size: .75em;
+    font-weight: bold;
+    padding-left: 12px;
+    background-image:url(../images/bullete_grey.jpg);
+    background-repeat: no-repeat;
+    margin-left: 22px;
+    
+}
+
+/*Styles for tab-v2 when inside a maodule, underline the text*/
+.sub-tab-inside a{
+    /* text-decoration: underline; */
+    width: 142px;
+    float: left;
+    font-weight: bold;
+    padding: 4px 7px 4px 10px;
+    background: #8e8c8d;
+    color: #FFFFFF;
+    font-size: .75em;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+    background-image:url(../images/bullete_white.jpg);
+    background-repeat: no-repeat;
+}
+
+/*defining the hover effect for tabs*/
+/*.sub-tab:hover{
+    padding-left: 2px;   
+}*/
+
+/*Styles for the right side bar with links*/
+.right-side-bar-sub-menu-tabs fieldset {
+    background: #edeff4;
+}
+
+/*Styles for the right side bar ul*/
+.right-side-bar-sub-menu-tabs ul{
+    list-style-type: none;
+    padding-left: 20px;
+
+}
+
+/*Styles for a of the sub-tab for Version-2 of design (left-side-bar)*/
+.sub-tab-v2 a{
+    text-decoration: none;
+    margin-right: 7px;
+    width: 150px;
+    float: right;
+    font-weight: bold;
+    padding: 4px 7px 4px 10px;
+    margin-top: 4px;
+    background: #edeff4;
+    color: #3B5998;
+    font-size: .7em;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/*Styles for a of the tab-small for Version-2 of design (right-side-bar)*/
+.tab-small-v2 a{
+    text-decoration: none;
+    width: 150px;
+    float: left;
+    font-weight: bold;
+    padding: 4px 7px 4px 10px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    background: #D4D2D3;
+    color: #000000;
+    font-size: .7em;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+/*Styles for a of the header navigation*/
+
+/* #header-navigation a{
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #000000;
+    
+} */
+#header-home {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-right: -5px;
+    color: #000000;
+}
+
+#header-change-password {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-right: -5px;
+    color: #000000;
+}
+#header-help {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-right: -5px;
+    color: #000000;
+}
+
+#welcome-message{
+    text-decoration: none;    
+    font-size: 15px;
+    font-weight: normal;
+    /* text-align: left; */
+    margin-right: 152px;
+    margin-top: 25px;
+
+}
+
+#header-separator{
+    margin-top: -21px;
+}
+#header-logout {		
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 1px;
+    margin-right: -5px;
+    color: #ffcd00;
+}
+
+/*Styles for header navigation*/
+#header-navigation{
+    float: right;
+    margin-top: -82px;
+    margin-left: 10px;
+    color: #000000;
+    text-align: right;
+}
+
+#welcome-user-message-logout{
+    font-size: 18px;
+    margin-top: -21px;
+    margin-right: 52px;
+    font-weight: normal;
+}
+
+
+
+#user-welcome{
+
+}
+/*giving padding below every tab*/
+/*Not included in v2 of design
+.tab, .tab-small{
+    padding-top: 10px;
+}*/
+
+/*defining the styles of a of a tab*/
+/*Not included in v2 of design
+.tab a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: .8em;
+    font-weight: bold;
+    padding-left: 1px;
+}*/
+
+
+/*defining the styles for the image used for tab*/
+/*Not included in v2 of design
+.tab .right-arrow, .tab-small .right-arrow{
+    float: left;
+}*/
+
+/*Not included in v2 of design
+.sub-tab .right-arrow-small{
+    float: left;
+    margin-left: 10px;
+}*/
+
+
+/*defining the styles of a of a tab*/
+/*Not included in v2 of design
+.tab-small a{
+    text-decoration: none;
+    color: #3B5998;
+    font-size: .7em;
+    font-weight: bold;
+    padding-left: 20px;
+}*/
+
+/*defining the hover effect for tabs*/
+/*Not included in v2 of design
+.tab:hover, .tab-small:hover{
+    padding-left: 2px;   
+}
+*/

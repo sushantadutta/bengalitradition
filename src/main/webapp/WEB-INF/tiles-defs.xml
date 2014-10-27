@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+	   "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+	   "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="baseLayout" template="/WEB-INF/tiles/baseLayout.jsp">
+<!-- 		<put-attribute name="header" value="/WEB-INF/tiles/header.jsp" /> -->
+		<put-attribute name="lmenu" value="/WEB-INF/tiles/lmenu.jsp" />
+		<put-attribute name="body" value="/WEB-INF/tiles/body.jsp" />
+		<put-attribute name="rmenu" value="/WEB-INF/tiles/rmenu.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" />
+	</definition>
+	
+	<definition name="admin-home" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/admin_home.jsp" />
+	</definition>
+	
+	<definition name="group_list" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/group.jsp" />
+	</definition>
+	
+	<definition name="user_group_list" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/user_group.jsp" />
+	</definition>
+	
+	
+	<definition name="add_user_new_form" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/user/add_user.jsp" />
+	</definition>
+	
+	<definition name="edit_user_form" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/user/edit_user.jsp" />
+	</definition>
+	
+	<definition name="add_group_new_form" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/group/add_group.jsp" />
+	</definition>
+	
+	<definition name="edit_group_form" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/group/edit_group.jsp" />
+	</definition>
+	
+	<definition name="user_group_list" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/user_group.jsp" />
+	</definition>
+	
+	<definition name="add_user_group_new_form" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/user_group/add_user_group.jsp" />
+	</definition>
+	
+	<definition name="lookup-home" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/lookup.jsp" />
+	</definition>
+	
+	<definition name="add_lookup_form" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/lookup/add_lookup.jsp" />
+	</definition>
+	
+	
+	<definition name="lookup_with_lookup_details" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/lookup/lookup_with_lookup_details.jsp" />
+	</definition>
+	
+	<definition name="add_lookup_details_new_form" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/lookup/add_lookup_details_new_form.jsp" />
+	</definition>
+	
+	<definition name="edit_lookup_details" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/lookup/edit_lookup_details.jsp" />
+	</definition>
+	
+	<definition name="group_permission" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/group/group_permission.jsp" />
+	</definition>
+	
+	<definition name="tableCatalogList" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/tabcatalog/tableCatalogList.jsp" />
+	</definition>
+	
+	<definition name="addTableCatalog" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/tabcatalog/addTableCatalog.jsp" />
+	</definition>
+	
+	<definition name="app_param_list" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/appParam/app_param.jsp" />
+	</definition> 
+	<definition name="editTableCatalog" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/tabcatalog/editTableCatalog.jsp" />
+	</definition>	
+	
+	<definition name="viewTableCatalogDetails" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/tabcatalog/viewTableCatalogDetails.jsp" />
+	</definition>
+	
+	
+	<definition name="edit_column_details" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/tabcatalog/editColumnDetails.jsp" />
+	</definition>
+	
+	<definition name="edit_lookup" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/lookup/edit_lookup.jsp" />
+	</definition>
+	
+	<definition name="add_column_details" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/tabcatalog/add_column_details.jsp" />
+	</definition>
+	
+	<definition name="showChangePasswordForm" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/changePassword/showChangePasswordForm.jsp" />
+	</definition>
+	
+	<definition name="userAndPasswordView" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/changePassword/userAndPasswordView.jsp" />
+	</definition>
+	
+</tiles-definitions>

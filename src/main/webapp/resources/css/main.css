@@ -1,0 +1,299 @@
+root { 
+    display: block;
+}
+
+/*Entire body*/
+textarea{
+    background: #FFFFFF;
+    font-family: Helvetica, frutiger, "Lucida Grande", Tahoma, Arial, sans-serif;
+}
+body{
+    /* background: #FFFFFF; */
+    background-image:url(../images/background-pattern.gif);
+    /* for non-css3 browsers */
+    /*    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000');  for IE 
+        background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #82C8E2 100%);  for webkit browsers 
+        background: -moz-linear-gradient(top,  #ccc,  #000);  for firefox 3.6+  */
+    font-family: Helvetica, frutiger, "Lucida Grande", Tahoma, Arial, sans-serif;
+}
+
+/*defining font size for input and select(drop-down)*/
+input, select, textarea{
+    font-size: 11px;
+}
+
+a:hover{
+    color: #FFFFFF;
+}
+
+.sub-tab-inside a:hover{
+    color: #FCC407;
+}
+/*entire area having text*/
+#container{
+    margin: 0 auto;
+    width: 1000px;
+    height: 880px;
+    /*    background-image:url(../images/background-pattern.gif);*/
+    /*    -moz-border-radius-topleft: 3px;
+        -moz-border-radius-topright: 3px;
+        -webkit-border-top-left-radius: 3px;
+        -webkit-border-top-right-radius: 3px;
+        -webkit-box-shadow: rgba(0,0,0,.15) 0px 1px 10px;
+        -moz-box-shadow: rgba(0,0,0,.15) 0px 1px 10px;
+        -o-box-shadow: rgba(0,0,0,.15) 0px 1px 10px;*/
+    margin-top: 12px;
+    /*    padding-top: 10px;*/
+}
+
+#login-container{
+    margin: 0 auto;
+    width: 500px;
+    height: 700px;
+    background: #FFFFFF;
+}
+
+/*header of the application*/
+#header{
+    background: #FFE084;
+    padding: 10px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -webkit-box-shadow: rgba(0,0,0,.15) 0px 1px 10px;
+    -moz-box-shadow: rgba(0,0,0,.15) 0px 1px 10px;
+    -o-box-shadow: rgba(0,0,0,.15) 0px 1px 10px;
+}
+/* header-v2 is defined in sprites.css*/
+
+/*left side navigation of the application*/
+/* #left-side-bar-navigation{
+    margin-top: 15px;
+    float: left;
+    width: 200px;
+    height: 630px;
+    background: #9BCEDD;
+    -moz-border-radius-topleft: 15px;
+    -webkit-border-top-left-radius: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -webkit-box-shadow: rgba(0,0,0,.15) 0px 1px 10px;
+    -moz-box-shadow: rgba(0,0,0,.15) 0px 1px 10px;
+    -o-box-shadow: rgba(0,0,0,.15) 0px 1px 10px;
+} */
+#left-side-bar-navigation{
+    /*    margin-top: 25px;*/
+    float: left;
+    width: 200px;
+    height: 630px;
+    background: #e6e6e6;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-box-shadow: rgba(0,0,0,.15) 0px 1px 10px;
+    -moz-box-shadow: rgba(0,0,0,.15) 0px 1px 10px;
+    -o-box-shadow: rgba(0,0,0,.15) 0px 1px 10px;
+    margin-right: 10px;
+}
+
+/*defining the styles for ul of left-side-bar-navigation*/
+#left-side-bar-navigation ul{
+    list-style-type: none;
+    padding-left: 5px;
+    margin-bottom: 42px;
+    margin-top: 8px;
+}
+
+/*Center content part of the application (with a right side-bar)*/
+#center-content{
+    float: left;
+    width: 550px;
+/*    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-box-shadow: rgba(0,0,0,.15) 0px 1px 1px;
+    -moz-box-shadow: rgba(0,0,0,.15) 0px 1px 1px;
+    -o-box-shadow: rgba(0,0,0,.15) 0px 1px 1px;
+    padding-bottom: 10px;*/
+}
+
+/*Center content part of the application (with no right side-bar)*/
+#center-content-no-right-side-bar{
+    float: left;
+    width: 790px;
+/*    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-box-shadow: rgba(0,0,0,.15) 0px 1px 1px;
+    -moz-box-shadow: rgba(0,0,0,.15) 0px 1px 1px;
+    -o-box-shadow: rgba(0,0,0,.15) 0px 1px 1px;
+    padding-bottom: 10px;*/
+/*    background: #FFFFFF;*/
+}
+
+/*right side bar of the application (Not present in grid side view)*/
+#right-side-bar-sub-menu{
+    margin-top: 15px;
+    float: right;
+    width: 200px;
+/*    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-box-shadow: rgba(0,0,0,.15) 0px 1px 1px;
+    -moz-box-shadow: rgba(0,0,0,.15) 0px 1px 1px;
+    -o-box-shadow: rgba(0,0,0,.15) 0px 1px 1px;*/
+}
+
+/*footer of the application*/
+#footer{
+    font-size: .563em;/*9px*/
+    margin-top: 10px;
+    float: left;
+    width: 980px;
+    background: #F5F5F5;
+    text-align: right;
+    padding: 10px;
+    border: 1px dotted #dedede;
+}
+
+/*defining the width of the form*/
+.box-curve{
+    width : 450px;
+}
+
+/*defining the styles of the legend of forms*/
+.box-curve legend {
+    font-weight: bold;
+    padding: 4px 7px 4px 10px;
+    background: #8E8C8D;
+    color: #FFFFFF;
+    font-size: .75em;
+    -moz-border-radius-topleft: 12px;
+    -moz-border-radius-topright: 12px;
+    -webkit-border-top-left-radius: 12px;
+    -webkit-border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/*defining the styles of the fieldset of a form*/
+.box-curve fieldset {
+    padding: 3px 0 10px 0;
+    color: #333;
+    position: relative;
+    background: #E6E6E6;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-topright: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.tab-small-v2 a:hover {
+    color: #FFFFFF;
+    position: relative;
+
+}
+
+
+a[data-title]:hover:before {
+    border: solid;
+    border-color: #111 transparent;
+    bottom: .5em;
+    content: "";
+    display: block;
+    left: 14.5em;
+    position: absolute;
+    z-index: 99;
+    /*    border-width: .0em .4em .4em .4em;*/
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #000000;
+    opacity : 0.6;
+}
+
+.modify-icons a:hover {
+    color: #000000;
+    position: relative;
+    font-size: .6em;
+}
+
+.preview-grid label:hover{
+    color: #FFFFFF;
+    position: relative;
+    font-size: .75em;
+}
+
+tr:hover {
+    background: transparent;
+    
+}
+
+a[data-title]:hover:after{
+    content: attr(data-title);
+    padding: 4px 8px;
+    color: #FFFFFF;
+    background: #000000;
+    position: absolute;
+    left: 102%;
+    top: 0%;
+    font-size: .85em;
+    font-weight: lighter;
+    white-space: pre-line;
+    z-index: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 0px 4px #222;
+    -webkit-box-shadow: 0px 0px 4px #222;
+    box-shadow: 0px 0px 4px #222;
+    opacity : 0.6;
+
+}​
+
+/*center grid of the application.
+Not incuded in v2 of the design
+#center-grid{
+    float: left;
+    width: 800px;
+}
+*/
+
+/*forms appearing at the center part of the application
+Not incuded in v2 of the design
+.content-form{
+    float: left;
+    width: 480px;
+    padding: 20px;
+    border-right-style: dotted;
+    border-right-width: 1px; 
+    border-right-color: #bbb;
+}
+*/

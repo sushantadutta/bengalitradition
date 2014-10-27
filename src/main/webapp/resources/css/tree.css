@@ -1,0 +1,31 @@
+root { 
+    display: block;
+}
+
+/*Tree Navigation*/
+#tree-navigation, #tree-navigation-title{
+    font-family: Verdana, helvetica, arial, sans-serif;
+    font-size: .7em;
+    float: left;
+    /*padding-left: 10px;*/
+    overflow: scroll;
+    width: 168px;
+    height: 464px;
+}
+#push-button{
+    width: 50px;
+    float:left;
+    margin-top: 100px;
+    margin-left: 19px;
+}
+
+#push-button .button{
+    text-align: center;
+    width: 37px;
+}
+
+
+/*
+#tree-form .button{
+    float:left;
+}*/
