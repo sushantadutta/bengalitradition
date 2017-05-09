@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import com.cc.ccadmin.dao.impl.RemoteDao;
-
+//Application Constants
 public class ApplicationConstant {
 
 	public static final Map<String, String> map_dataSources = new HashMap<String, String>();
